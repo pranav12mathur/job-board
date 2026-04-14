@@ -45,3 +45,5 @@ A full-stack job board web application that allows users to search, filter, and 
 
 1. Clone the repo
 ```bash
+## Live Demo
+🔗 [JobBoard](https://job-board-xyz.vercel.app)
