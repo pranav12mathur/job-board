@@ -8,7 +8,13 @@ connectDB();
 
 const app = express();
 
-app.use(cors({ origin: ["http://localhost:5173","https://job-board-xyz.vercel.app"], credentials: true }));
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://job-board-api-sigma.vercel.app"
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 // Routes
